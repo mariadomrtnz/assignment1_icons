@@ -1,0 +1,101 @@
+/*CSS RESPONSIVE TO MOBILE*/
+
+/*General CSS for the article*/
+
+body{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+div {
+	padding: 20px;
+	margin: 55px;
+	align-content: center;
+
+}
+
+footer{
+    margin-top: auto;
+    margin: 55px;
+    font-family: Helvetica;
+    font-size: 12px;
+
+}
+
+
+h1{
+	color:black;
+	font-family:Libre Baskerville;
+	font-size:40px;
+	font-style:normal;
+	font-weight:bold;
+	line-height:150%;
+	letter-spacing:normal;
+	text-align:center;
+		}
+
+h2{
+	color:grey;
+	font-family:Libre Baskerville;
+	font-size:20px;
+	font-style:normal;
+	font-weight:bold;
+	line-height:180%;
+	letter-spacing:normal;
+	text-align:center;
+		}
+
+h3{
+	color:lightgrey;
+	font-family: Helvetica;
+	font-size:15px;
+	font-style:normal;
+	font-weight:normal;
+	line-height:150%;
+	letter-spacing:normal;
+	text-align:center;
+		}
+
+article {
+	font-family: 'Roboto', sans-serif;
+	text-justify: inter-word;
+}
+
+img {
+	align-content: center;
+}
+
+.responsive {
+  width: 100%;
+  height: auto;
+}
+
+/*Columns with icons*/
+
+* {
+	box-sizing: border-box;
+}
+
+.all_columns {
+	float: left;
+	width: 15%;
+	padding: 5px;
+	margin: 55px;
+	min-height: 50px;
+	text-align: center;
+	align-content: center;
+}
+
+.all_rows: {
+	break-after: auto;
+	display: center;
+	clear: both;
+}
+
+@media screen and (max-width: 768px) {
+	.all_columns {
+		width: 100%;
+	}
+}
+
